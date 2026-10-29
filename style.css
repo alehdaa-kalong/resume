@@ -163,3 +163,20 @@ body {
         font-size: 1.1rem;
     }
 }
+
+.clock-box {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.clock-display {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 5px;
+    direction: ltr; /* Keeps time formatted cleanly as HH:MM:SS */
+    display: inline-block;
+}
